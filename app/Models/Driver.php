@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
+// Modelo que representa a un piloto de Fórmula 1
 class Driver extends Model
 {
     use HasFactory;

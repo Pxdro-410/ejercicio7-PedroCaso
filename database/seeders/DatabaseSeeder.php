@@ -10,6 +10,7 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
+        // Generador de datos aleatorios para la base de datos de F1
         $now = Carbon::now();
 
         // 1. Teams

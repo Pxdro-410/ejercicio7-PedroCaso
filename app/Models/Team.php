@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
+// Modelo que representa a una Escudería (equipo) de Fórmula 1
 class Team extends Model
 {
     use HasFactory;
